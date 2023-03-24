@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, icongithub, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
 
 export const navLinks = [
   {
@@ -157,23 +157,33 @@ export const footerLinks = [
 export const socialMedia = [
   {
     id: "social-media-1",
-    icon: instagram,
-    link: "https://www.instagram.com/",
+    icon: linkedin,
+    link: "https://www.linkedin.com/in/tomas-garnero/",
+    title: "Linkedin"
   },
   {
     id: "social-media-2",
-    icon: facebook,
-    link: "https://www.facebook.com/",
+    icon: icongithub,
+    link: "https://github.com/Tomas-Garnero",
+    title: "Github"
   },
   {
     id: "social-media-3",
-    icon: twitter,
-    link: "https://www.twitter.com/",
+    icon: instagram,
+    link: "https://www.instagram.com/tomygarnero/",
+    title: "Instagram"
   },
   {
     id: "social-media-4",
-    icon: linkedin,
-    link: "https://www.linkedin.com/",
+    icon: facebook,
+    link: "https://www.facebook.com/",
+    title: "Facebook"
+  },
+  {
+    id: "social-media-5",
+    icon: twitter,
+    link: "https://www.twitter.com/",
+    title: "Twitter"
   },
 ];
 
