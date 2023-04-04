@@ -36,6 +36,8 @@ const Footer = () => (
             </div>
         </div>
         <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]">
+            <div className="absolute z-[3] w-[30%] h-[100px] -left-[17%] rounded-full blue__gradient bottom-30" />
+            <div className="absolute z-[3] w-[30%] h-[100px] -left-[17%] rounded-full pink__gradient bottom-30" />
             <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-white">
                 Copyright Ⓒ 2022 HooBank. All Rights Reserved.
             </p>
